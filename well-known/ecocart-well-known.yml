@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+host: https://ecocart.io
+notes: >-
+  Probed the /.well-known/ discovery surface on the primary host. No documents
+  were served (all 404). The api.ecocart.io host (Stoplight-fronted, Cloudflare)
+  and dev.ecocart.io (Webflow) could not be TLS-probed from this environment.
+  Absence of well-known documents is valid recorded data.
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

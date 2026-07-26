@@ -1,0 +1,40 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/search?q=ecocart
+notes: >-
+  First-party EcoCart libraries published to npm under the Ecocart-io org
+  (maintainer nathan@ecocart.io). These are client-side React / utility
+  libraries, not REST API client SDKs, so no `SDKs` pointer is emitted — see
+  components/ecocart-components.yml for the UI component library. Repos under
+  github.com/Ecocart-io are not currently public.
+packages:
+  - language: javascript
+    registry: npm
+    name: ecocart-react-components
+    version: 1.0.5
+    license: MIT
+    url: https://www.npmjs.com/package/ecocart-react-components
+    repository: https://github.com/Ecocart-io/ecocart-react-components
+    install: npm install ecocart-react-components
+    description: EcoCart's reusable and sustainable React component library.
+    official: true
+  - language: javascript
+    registry: npm
+    name: ecocart-react-hooks
+    version: 1.0.5
+    license: MIT
+    url: https://www.npmjs.com/package/ecocart-react-hooks
+    repository: https://github.com/Ecocart-io/ecocart-react-hooks
+    install: npm install ecocart-react-hooks
+    description: EcoCart React Hook Library.
+    official: true
+  - language: javascript
+    registry: npm
+    name: ecocart-utils
+    version: 1.0.3
+    license: MIT
+    url: https://www.npmjs.com/package/ecocart-utils
+    repository: https://github.com/Ecocart-io/ecocart-utils
+    install: npm install ecocart-utils
+    description: EcoCart utility library.
+    official: true

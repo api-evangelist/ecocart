@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/package/ecocart-react-components
+notes: >-
+  EcoCart publishes a first-party React component library on npm for embedding
+  its sustainable-checkout / climate-contribution UI surfaces into merchant
+  storefronts. Distinct from server-side SDKs. Discovered via npm search under
+  the Ecocart-io org (maintainer nathan@ecocart.io); GitHub source repos are
+  not currently public.
+families:
+  - name: React component library
+    kind: react-components
+    loader:
+      registry: npm
+      name: ecocart-react-components
+      version: 1.0.5
+      install: npm install ecocart-react-components
+      url: https://www.npmjs.com/package/ecocart-react-components
+    companion:
+      - name: ecocart-react-hooks
+        url: https://www.npmjs.com/package/ecocart-react-hooks
+        description: React hooks companion for the component library.

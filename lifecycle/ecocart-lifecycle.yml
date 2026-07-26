@@ -1,0 +1,14 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.ecocart.io/
+notes: >-
+  EcoCart operates a public status page hosted on UptimeRobot. No published
+  versioning policy, deprecation policy, or SLA page was located; the API
+  reference is hosted on Stoplight at api.ecocart.io. Fields left absent are
+  genuinely not published, not omitted.
+status_page: https://status.ecocart.io/
+status_page_provider: UptimeRobot
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []

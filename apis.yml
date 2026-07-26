@@ -1,7 +1,17 @@
 aid: ecocart
 name: EcoCart
-description: EcoCart is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  EcoCart is a sustainable-commerce platform that embeds climate contributions,
+  shipping protection, and returns management directly into the e-commerce
+  checkout experience. It lets merchants calculate and offset the carbon
+  footprint of orders, offer package protection, provide returns and cashback
+  incentives, and communicate their sustainability story across the customer
+  journey. EcoCart reports helping over 2,000 merchants mitigate more than 400
+  million pounds of greenhouse gases. The platform integrates with major
+  e-commerce systems and exposes a developer API (hosted on Stoplight at
+  api.ecocart.io) plus a first-party React component library for embedding
+  sustainable-checkout surfaces into storefronts. EcoCart is backed by 500
+  Global.
 url: https://raw.githubusercontent.com/api-evangelist/ecocart/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +19,91 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://ecocart.io/favicon.ico
 tags:
 - Company
-apis: []
+- Sustainability
+- Carbon Offsets
+- E-commerce
+- Climate
+- Checkout
+- Shipping Protection
+- Returns
+apis:
+- name: EcoCart API
+  description: >-
+    EcoCart's developer API for programmatic integration of climate
+    contributions, shipping protection, and sustainable-checkout features.
+    The API reference is hosted on Stoplight.
+  humanURL: https://dev.ecocart.io/
+  baseURL: https://api.ecocart.io
+  tags:
+  - Sustainability
+  - Carbon Offsets
+  - E-commerce
+  properties:
+  - type: APIReference
+    url: https://api.ecocart.io/
+  - type: DeveloperPortal
+    url: https://dev.ecocart.io/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ecocart-domain-security.yml
 - type: Website
   url: https://ecocart.io
+- type: DeveloperPortal
+  url: https://dev.ecocart.io/
+- type: Documentation
+  url: https://api.ecocart.io/
+- type: APIReference
+  url: https://api.ecocart.io/
+- type: Pricing
+  url: https://ecocart.io/pricing/
+- type: Blog
+  url: https://ecocart.io/resources/articles
+- type: Support
+  url: https://support.ecocart.io/knowledge
+- type: TermsOfService
+  url: https://ecocart.io/terms-conditions/
+- type: PrivacyPolicy
+  url: https://ecocart.io/privacy/
+- type: SignUp
+  url: https://ecocart.io/request-a-demo/
+- type: GitHubOrganization
+  url: https://github.com/Ecocart-io
+- type: StatusPage
+  url: https://status.ecocart.io/
+- type: Lifecycle
+  url: lifecycle/ecocart-lifecycle.yml
+- type: Packages
+  url: packages/ecocart-packages.yml
+- type: Components
+  url: components/ecocart-components.yml
+- type: WellKnown
+  url: well-known/ecocart-well-known.yml
+- type: LLMsTxt
+  url: llms/ecocart-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
