@@ -1,12 +1,12 @@
 generated: '2026-07-19'
 method: searched
 host: https://ecocart.io
-notes: >-
-  Probed the /.well-known/ discovery surface on the primary host. No documents
-  were served (all 404). The api.ecocart.io host (Stoplight-fronted, Cloudflare)
-  and dev.ecocart.io (Webflow) could not be TLS-probed from this environment.
-  Absence of well-known documents is valid recorded data.
-documents:
+notes: Probed the /.well-known/ discovery surface on the primary host. No documents were served (all 404).
+  The api.ecocart.io host (Stoplight-fronted, Cloudflare) and dev.ecocart.io (Webflow) could not be TLS-probed
+  from this environment. Absence of well-known documents is valid recorded data.
+hosts:
+- host: https://ecocart.io
+  documents:
   - path: /.well-known/security.txt
     status: 404
   - path: /.well-known/openid-configuration
@@ -17,3 +17,8 @@ documents:
     status: 404
   - path: /.well-known/ai-plugin.json
     status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
